@@ -1,0 +1,48 @@
+/* BODY
+******************************************/
+body {
+    background: url(images/bg-pattern-top.svg);
+    background-color:  hsl(185, 75%, 39%);
+}
+
+.card-container {
+    display: grid-row;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    border-radius: 12px;
+    text-align: center;
+    padding: 150px;
+    margin: 150px 450px;
+    height: 60px;
+}
+
+/* .profile-card-container {
+    display: grid;
+    text-align: center;
+    border-radius: 12px;
+    padding: 150px;
+    margin: 150px 450px;
+    height: 60px;
+    background: url(images/bg-pattern-card.svg) no-repeat;
+    background-size: 100%;
+    background-color: white;
+}
+
+.profile-card-container img {
+    position: fixed;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px black solid;
+
+}
+ */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+}
+
